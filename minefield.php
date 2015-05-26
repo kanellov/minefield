@@ -158,7 +158,6 @@ class Minefield {
 
 }
 
-// call something like: 	http://localhost/Westwing/minefield.php?file=minefieldSmall.txt
 $file = $_GET["file"];
 $minefield = new Minefield($file);
 $minefield->printBoard();
