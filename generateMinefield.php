@@ -60,7 +60,7 @@ class MinefieldGenerator {
 
 }
 
-// call something like: 	http://localhost/Westwing/generateMinefield.php?width=16&height=16
+// call something like: 	http://localhost/generateMinefield.php?width=16&height=16
 $width = $_GET["width"];
 $height = $_GET["height"];
 $minefield = new MinefieldGenerator($width, $height);
